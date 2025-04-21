@@ -1,0 +1,216 @@
+[
+    {
+        "name": "Myfind",
+        "category": 
+        [
+            "Basic"
+        ],
+        "description": "Code find function.",
+        "stack":
+        [
+            "C",
+            "Makefile"
+        ],
+        "group": "Alone",
+        "link": "",
+        "date": "2023-11-01",
+        "state": "Done",
+        "place": "EPITA"
+    },
+    {
+        "name": "MyMalloc",
+        "category": 
+        [
+            "Basic",
+            "Low-level"
+        ],
+        "description": "Code malloc function using mmap() and bucket-list pattern",
+        "stack":
+        [
+            "C",
+            "Makefile"
+        ],
+        "group": "Alone",
+        "link": "",
+        "date": "2023-11-10",
+        "state": "Done",
+        "place": "EPITA"
+    },
+    {
+        "name": "myHTTPD",
+        "category": 
+        [
+            "Basic",
+            "Network",
+            "Low-level"
+        ],
+        "description": "Create a HTTP daemon server with async and multithreading. Payload test with siege",
+        "stack":
+        [
+            "C",
+            "Makefile"
+        ],
+        "group": "Alone",
+        "link": "",
+        "date": "2023-11-20",
+        "state": "Done",
+        "place": "EPITA"
+    },
+    {
+        "name": "My42sh",
+        "category": 
+        [
+            "Low-Level",
+            "Basic"
+        ],
+        "description": "Recreate a POSIX shell in C: Lexing (SCL), Parsing, AST evaluation, Execution.",
+        "stack":
+        [
+            "C",
+            "Shell",
+            "Makefile",
+            "Meson",
+            "GitLab CI"
+        ],
+        "group": "4 people",
+        "link": "",
+        "date": "2024-01-10",
+        "state": "Done",
+        "place": "EPITA"
+    },
+    {
+        "name": "JWS",
+        "category": 
+        [
+            "Backend",
+            "API",
+            "Game"
+        ],
+        "description": "Creating a JAVA backend for a bomberman game.",
+        "stack":
+        [
+            "JAVA",
+            "Quarkus"
+        ],
+        "group": "Alone",
+        "link": "",
+        "date": "2024-02-10",
+        "state": "Done",
+        "place": "EPITA"
+    },
+    {
+        "name": "Libzork",
+        "category": 
+        [
+            "Parsing",
+            "Game"
+        ],
+        "description": "Recreating the zork game which is a multi-choice story print in the terminal.",
+        "stack":
+        [
+            "Cmake",
+            "C++",
+            "YAML"
+        ],
+        "group": "Alone",
+        "link": "",
+        "date": "2024-02-20",
+        "state": "Done",
+        "place": "EPITA"
+    },
+    {
+        "name": "TIGER Compiler",
+        "category": 
+        [
+            "Low-Level",
+            "Compiler"
+        ],
+        "description": "Create a frontend compiler for the TIGER Language from lexing to Intermediate language Level.",
+        "stack":
+        [
+            "Flex",
+            "Bison",
+            "Cmake",
+            "C++",
+            "LLVM"
+        ],
+        "group": "4 people",
+        "link": "",
+        "date": "2024-03-10",
+        "state": "Done",
+        "place": "EPITA"
+    },
+    {
+        "name": "PING IDE",
+        "category": 
+        [
+            "Backend",
+            "Frontend",
+            "Fullstack",
+            "Project Management"
+        ],
+        "description": "Creating a complete IDE that evaluate project and give a ecoscore.",
+        "stack":
+        [
+            "JAVA",
+            "Quarkus",
+            "JS",
+            "TypeScript",
+            "React.js",
+            "Docker",
+            "HTML/CSS"
+        ],
+        "group": "4 people",
+        "link": "",
+        "date": "2023-05-10",
+        "state": "Done",
+        "place": "EPITA"
+    },
+    {
+        "name": "Toolchain project",
+        "category": 
+        [
+            "Backend",
+            "Infrastructure"
+        ],
+        "description": "Development of an automated solution for the sequential execution of interconnected services.",
+        "stack":
+        [
+            "JAVA",
+            "Quarkus",
+            "YAML",
+            "Multitier architecture"
+        ],
+        "group": "4 people",
+        "link": "",
+        "date": "2024-09-01",
+        "state": "Done",
+        "place": "Internship at FORGE"
+    },
+    {
+        "name": "Epitweet",
+        "category": 
+        [
+            "Backend",
+            "Deployement",
+            "Infrastructure",
+            "Multitier architecture",
+            "DataBase"
+        ],
+        "description": "Recreating Twitter backend with MongoDB, Quarkus, Docker, Kubernetes.",
+        "stack":
+        [
+            "MongoDB",
+            "JAVA",
+            "Quarkus",
+            "Docker",
+            "Kubernetes"
+        ],
+        "group": "10 people",
+        "link": "",
+        "date": "2025-03-10",
+        "state": "Done",
+        "place": "EPITA"
+    }
+
+]

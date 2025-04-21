@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import TypewriterText from '../components/Typewriter';
+import Projects from '../components/Projects';
 
 export default function Home() {
   return (
@@ -22,16 +23,7 @@ export default function Home() {
 
         <section>
           <h2 className="text-2xl font-bold mb-4">Projects</h2>
-          <ul className="space-y-4">
-            <li className="p-4 border rounded shadow">
-              <h3 className="font-semibold">Cool System Tool</h3>
-              <p>Built with C++ and a passion for bits and bytes.</p>
-            </li>
-            <li className="p-4 border rounded shadow">
-              <h3 className="font-semibold">Internal Management Dashboard</h3>
-              <p>Led the team and built core logic in Python.</p>
-            </li>
-          </ul>
+          <Projects></Projects>
         </section>
 
         <section>
