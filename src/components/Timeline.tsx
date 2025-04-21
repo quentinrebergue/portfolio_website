@@ -174,7 +174,6 @@ import React, {
     useRef,
     useCallback,
     useMemo,
-    FC,
   } from "react";
   import clsx from "clsx";
   
@@ -328,7 +327,14 @@ import React, {
               // Item Row Container Div (key, ref setup unchanged)
               <div
                 key={event.id}
-                ref={(el) => itemRefs.current.set(event.id, el)}
+                ref={(el) => {
+                    if (el) {
+                      itemRefs.current.set(event.id, el);
+                    } else {
+                      itemRefs.current.delete(event.id); // Clean up if the element is removed
+                    }
+                  }}
+                //ref={(el) => itemRefs.current.set(event.id, el)}
                 className={clsx(
                   "relative mb-12 flex items-start",
                   // Alignment still based on 'position'

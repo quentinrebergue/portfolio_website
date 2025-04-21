@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Projects from '@/components/Projects';
 import Head from 'next/head';
 import {Timeline} from '@/components/Timeline'
@@ -56,7 +55,7 @@ export default function Home() {
       <main className="">
         <section className="w-screen h-screen flex items-center justify-center space-y-4">
           <div className="flex flex-col items-center text-center">
-            <h1 className="text-4xl font-bold">Hi, I'm Quentin</h1>
+            <h1 className="text-4xl font-bold">Hi, Im Quentin</h1>
             <TypewriterText texts={['Low-Level Engineer','Tech Manager','Problem Solver']}></TypewriterText>
           </div>
         </section>
