@@ -21,10 +21,9 @@
         "name": "MyMalloc",
         "category": 
         [
-            "Basic",
-            "Low-level"
+            "low-level"
         ],
-        "description": "Code malloc function using mmap() and bucket-list pattern",
+        "description": "Code malloc using mmap() and bucket-list pattern",
         "stack":
         [
             "C",
@@ -40,11 +39,9 @@
         "name": "myHTTPD",
         "category": 
         [
-            "Basic",
-            "Network",
-            "Low-level"
+            "network"
         ],
-        "description": "Create a HTTP daemon server with async and multithreading. Payload test with siege",
+        "description": "HTTP daemon server with async and multithreading. Payload test with siege",
         "stack":
         [
             "C",
@@ -60,10 +57,9 @@
         "name": "My42sh",
         "category": 
         [
-            "Low-Level",
-            "Basic"
+            "low-level"
         ],
-        "description": "Recreate a POSIX shell in C: Lexing (SCL), Parsing, AST evaluation, Execution.",
+        "description": "POSIX shell in C: Lexing (SCL), Parsing, AST evaluation, Execution.",
         "stack":
         [
             "C",
@@ -82,11 +78,9 @@
         "name": "JWS",
         "category": 
         [
-            "Backend",
-            "API",
-            "Game"
+            "backend"
         ],
-        "description": "Creating a JAVA backend for a bomberman game.",
+        "description": "JAVA backend for a bomberman game.",
         "stack":
         [
             "JAVA",
@@ -102,10 +96,9 @@
         "name": "Libzork",
         "category": 
         [
-            "Parsing",
-            "Game"
+            "game"
         ],
-        "description": "Recreating the zork game which is a multi-choice story print in the terminal.",
+        "description": "Code Zork game which is a multi-choice story print in the terminal.",
         "stack":
         [
             "Cmake",
@@ -122,14 +115,12 @@
         "name": "TIGER Compiler",
         "category": 
         [
-            "Low-Level",
-            "Compiler"
+            "compiler"
         ],
-        "description": "Create a frontend compiler for the TIGER Language from lexing to Intermediate language Level.",
+        "description": "Frontend compiler for the TIGER Language from lexing to LLVM.",
         "stack":
         [
-            "Flex",
-            "Bison",
+            "Flex/Bison",
             "Cmake",
             "C++",
             "LLVM"
@@ -144,21 +135,16 @@
         "name": "PING IDE",
         "category": 
         [
-            "Backend",
-            "Frontend",
-            "Fullstack",
-            "Project Management"
+            "ide"
         ],
-        "description": "Creating a complete IDE that evaluate project and give a ecoscore.",
+        "description": "Creating a IDE that evaluate project and give a ecoscore.",
         "stack":
         [
             "JAVA",
             "Quarkus",
-            "JS",
-            "TypeScript",
+            "JS/TS",
             "React.js",
-            "Docker",
-            "HTML/CSS"
+            "Docker"
         ],
         "group": "4 people",
         "link": "",
@@ -170,7 +156,7 @@
         "name": "Toolchain project",
         "category": 
         [
-            "Backend",
+            "backend",
             "Infrastructure",
             "Multitier architecture"
         ],
@@ -191,13 +177,13 @@
         "name": "Epitweet",
         "category": 
         [
-            "Backend",
+            "backend",
             "Deployement",
             "Infrastructure",
             "Multitier architecture",
             "DataBase"
         ],
-        "description": "Recreating Twitter backend with MongoDB, Quarkus, Docker, Kubernetes.",
+        "description": "Code Twitter backend with MongoDB, Quarkus, Docker, Kubernetes.",
         "stack":
         [
             "MongoDB",

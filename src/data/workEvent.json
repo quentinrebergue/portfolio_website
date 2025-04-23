@@ -1,0 +1,80 @@
+[
+    {
+      "id": 100,
+      "title": "Science Tutor at Alveus",
+      "description": "Something important happened here. Details about the first event.",
+      "startDate": "2020-05-01",
+      "endDate": "2020-08-01"
+    },
+    {
+      "id": 110,
+      "title": "Computer science Tutor",
+      "description": "Something important happened here. Details about the first event.",
+      "startDate": "2020-09-01",
+      "endDate": "2021-05-01"
+    },
+    {
+      "id": 101,
+      "title": "Internship Alegria.tech",
+      "description": "Following the first event, this occurred. More details follow.",
+      "startDate": "2021-09-01",
+      "endDate": "2022-01-31"
+    },
+    {
+      "id": 102,
+      "title": "Freelance Web Dev",
+      "description": "Following the first event, this occurred. More details follow.",
+      "startDate": "2022-02-01",
+      "endDate": "2022-06-01"
+    },
+    {
+      "id": 103,
+      "title": "Web dev at Alegria.tech",
+      "description": "Following the first event, this occurred. More details follow.",
+      "startDate": "2022-06-01",
+      "endDate": "2022-09-01"
+    },
+    {
+      "id": 104,
+      "title": "Speaker at NocodeSummit",
+      "description": "Following the first event, this occurred. More details follow.",
+      "startDate": "2022-10-01",
+      "endDate": "2022-10-01"
+    },
+    {
+      "id": 105,
+      "title": "Web Dev at Yokai",
+      "description": "Following the first event, this occurred. More details follow.",
+      "startDate": "2023-07-01",
+      "endDate": "2023-09-01"
+    },
+    {
+      "id": 106,
+      "title": "Web Dev at Aussitot Bon",
+      "description": "Following the first event, this occurred. More details follow.",
+      "startDate": "2023-09-01",
+      "endDate": "2024-03-15"
+    },
+    {
+      "id": 107,
+      "title": "FORGE Internship",
+      "description": "Following the first event, this occurred. More details follow.",
+      "startDate": "2024-09-01",
+      "endDate": "2025-02-01"
+    },
+    {
+      "id": 108,
+      "title": "YAKA Chief Assistant",
+      "description": "Following the first event, this occurred. More details follow.",
+      "startDate": "2025-02-01",
+      "endDate": "2025-08-01"
+    },
+    {
+      "id": 109,
+      "title": "ACU Chief Assistant",
+      "description": "Following the first event, this occurred. More details follow.",
+      "startDate": "2025-09-01",
+      "endDate": "2026-02-01"
+    }
+
+]

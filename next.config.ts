@@ -12,6 +12,10 @@ const nextConfig: NextConfig = {
       '@emotion/react': 'node_modules/@memotion/react', // Switch to styled-components
 
     };
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"],
+    });
     return config;
   },
 

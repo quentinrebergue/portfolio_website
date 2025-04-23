@@ -1,52 +1,15 @@
 import Projects from '@/components/Projects';
 import Head from 'next/head';
 import {Timeline} from '@/components/Timeline'
+import schoolEvents from '@/data/schoolEvent.json'
+import workEvents from '@/data/workEvent.json'
 
 import TypewriterText from '@/components/Typewriter';
 
 export default function Home() {
-  const SchoolEvents = [
-    {
-      id: 1,
-      title: 'Event One',
-      description: 'Something important happened here. Details about the first event.',
-      date: '2025-01-15',
-    },
-    {
-      id: 2,
-      title: 'Event Two',
-      description: 'Following the first event, this occurred. More details follow.',
-      date: '2025-02-20',
-    },
-    {
-      id: 3,
-      title: 'A Third Milestone',
-      description: 'Significant progress was made. Let us elaborate on this point.',
-      date: '2025-03-10',
-    }
-  ];
-  const WorkEvents = [
-    {
-      id: 4,
-      title: 'Event One',
-      description: 'Something important happened here. Details about the first event.',
-      date: '2025-01-15',
-    },
-    {
-      id: 5,
-      title: 'Event Two',
-      description: 'Following the first event, this occurred. More details follow.',
-      date: '2025-02-20',
-    },
-    {
-      id: 6,
-      title: 'A Third Milestone',
-      description: 'Significant progress was made. Let us elaborate on this point.',
-      date: '2025-03-10',
-    }
-  ];
   return (
-    <div className="min-h-screen bg-white text-gray-900">
+    
+    <div className="min-h-screen bg-[#ffffff] text-gray-900">
       <Head>
         <title>Quentin | Portfolio</title>
         <meta name="description" content="Quentin's personal portfolio" />
@@ -61,11 +24,11 @@ export default function Home() {
         </section>
 
 
-        <section>
+        <section className="bg-gray-100">
           <Projects></Projects>
         </section>
         <section>
-          <Timeline schoolEvents={SchoolEvents} workEvents={WorkEvents} activationPoint={0.5} />
+          <Timeline schoolEvents={schoolEvents} workEvents={workEvents} activationPoint={0.5} />
         </section>
         <section className="bg-gray-100 py-10">
           <div className="max-w-4xl mx-auto text-center">
